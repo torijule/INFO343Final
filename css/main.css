@@ -6,13 +6,14 @@ body {
   background-repeat: no-repeat;
   font-family: Tahoma, Arial, Verdana; font-size:12px;
 }
+
 #wrapper {
-	 background-image: url(../images/pic.jpg);
-  background-size: cover;
-  /*background-position:center top; background-color:#fff9b3;*/
-  background-repeat: no-repeat;
-  font-family: Tahoma, Arial, Verdana; font-size:12px;
-  background-color: #FFFD9C;
+	background-image: url(../images/pic.jpg);
+	background-size: cover;
+	/*background-position:center top; background-color:#fff9b3;*/
+	background-repeat: no-repeat;
+	font-family: Tahoma, Arial, Verdana; font-size:12px;
+	background-color: #FFFD9C;
 }
 
 /* Heading */
@@ -53,7 +54,7 @@ h6{
 }
 /* links */
 a,a:link,a:visited {
-  color:blue;
+  color:white;
   text-decoration:none;
 }
 a:hover{
@@ -61,43 +62,106 @@ a:hover{
 }
 a img, img {
   border:none
+  max-width: max-content;
+
 }
 
 /* paragraphs,blockquote,code */
 p {
-  margin-bottom:12px;
-  color:#000000;
-  font-size: 12px;
+	margin-bottom:12px;
+	color:#000000;
+	font-size: 12px;
 	line-height: 17px;
 }
 
+#mainwrapper {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding:0;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 #menu , .selected, #submenu {
-	background-color: #FACC2E;
 	max-width: max-content;
+}
+
+#footer{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #0B2161;
 }
 
 #menuitems a {
 	color: inherit;
 	text-decoration: none;
+	margin:10px;
 }
 
 #menuitems li {
-	font-size: 20px;
-	background-color: #F4FA58;
+	font-size: 12px;
+/*	background-color: #F4FA58;*/
 }
 
 #menuitems li, .submenuitem li {
 	font-size: 15px;
-	color: BLUE;
+	color: white;
 	display: inline;
-	margin: 0;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin: 10px;
+}
+/*#submenu{
+	margin-left: 30%;
+	background-color: #08088A;
+	font-size: 15px;
+	width:150px;
+}*/
+
+
+li{
+    list-style-type:none;
+}
+#headerright {
+    margin-right: 1em;
+	position: absolute;
+    right: 60px;
+    top:10px;
+}
+.social-icon ul li{
+	display: inline;
 }
 
-#menucontainer ul {
+#menu {
+	background-color: #0B2161;
+	height:40px;
+	background-size:cover;
 	margin: 0;
 }
+
+#submenu .about {
+	margin-left: 30%;
+	background-color: #08088A;
+	font-size: 15px;
+	width:150px;
+}
+#submenu .products {
+	margin-left: 48%;
+	background-color: #08088A;
+	font-size: 15px;
+	width:150px;
+}
+#submenu .store {
+	margin-left: 64%;
+	background-color: #08088A;
+	font-size: 15px;
+	width:150px;
+}
+#submenu .business {
+	margin-left: 76%;
+	background-color: #08088A;
+	font-size: 15px;
+	width:150px;
+}
+
+
 =======
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
