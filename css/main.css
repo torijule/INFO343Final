@@ -1,4 +1,77 @@
 <<<<<<< HEAD
+body {
+  /*background-color: #669100;
+  background-image: url(images/pattern/bg.jpg);
+  background-position:center top; background-color:#fff9b3;
+  background-repeat: no-repeat;
+  font-family: Tahoma, Arial, Verdana; font-size:12px;
+*/
+  background-image: url(../pic.jpg);
+  background-size: cover;
+  background-position:center top; background-color:#fff9b3;
+  background-repeat: no-repeat;
+  font-family: Tahoma, Arial, Verdana; font-size:12px;
+}
+main {
+
+  background-color: #FFFD9C;
+}
+/* Heading */
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	color:blue;
+	font-family: Tahoma, Arial, Verdana;
+}
+h1{
+	font-size:36px; 
+	line-height:36px; 
+	margin-bottom:14px;
+}
+h2{
+	font-size:30px; 
+	line-height:30px; 
+	margin-bottom:14px;
+}
+h3{
+	font-size:24px; 
+	margin-bottom:12px;
+}
+h4{
+	font-size:18px; 
+	line-height:16px; 
+	margin-bottom:12px;
+}
+h5{
+	font-size:14px; 
+	margin-bottom: 12px; 
+	padding:0px;
+}
+h6{
+	font-size:12px; 
+	margin-bottom: 12px; 
+	padding:0px;
+	letter-spacing: 1px;
+}
+/* links */
+a,a:link,a:visited {
+  color:blue;
+  text-decoration:none;
+}
+a:hover{
+  color:#555555;
+}
+a img, img {
+  border:none
+}
+
+/* paragraphs,blockquote,code */
+p {
+  margin-bottom:12px;
+  color:#000000;
+  font-size: 12px;
+	line-height: 17px;
+}
+
 #menu , .selected, #submenu {
 	background-color: RED !important;
 }
