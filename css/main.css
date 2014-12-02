@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 18px; 
+}
+
+#map {
+	vertical-align: middle;
+	height: 600px;
+	width: 600px;
+}
+
+#locating-message img {
+    vertical-align: middle;
+}
