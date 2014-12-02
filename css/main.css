@@ -1,21 +1,20 @@
 <<<<<<< HEAD
 body {
-  /*background-color: #669100;
-  background-image: url(images/pattern/bg.jpg);
-  background-position:center top; background-color:#fff9b3;
-  background-repeat: no-repeat;
-  font-family: Tahoma, Arial, Verdana; font-size:12px;
-*/
-  background-image: url(../img/pic.jpg);
+  background-image: url(../images/pic.jpg);
   background-size: cover;
-  background-position:center top; background-color:#fff9b3;
+  /*background-position:center top; background-color:#fff9b3;*/
   background-repeat: no-repeat;
   font-family: Tahoma, Arial, Verdana; font-size:12px;
 }
-main {
-
+#wrapper {
+	 background-image: url(../images/pic.jpg);
+  background-size: cover;
+  /*background-position:center top; background-color:#fff9b3;*/
+  background-repeat: no-repeat;
+  font-family: Tahoma, Arial, Verdana; font-size:12px;
   background-color: #FFFD9C;
 }
+
 /* Heading */
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
@@ -73,7 +72,8 @@ p {
 }
 
 #menu , .selected, #submenu {
-	background-color: RED !important;
+	background-color: #FACC2E;
+	max-width: max-content;
 }
 
 #menuitems a {
@@ -82,10 +82,12 @@ p {
 }
 
 #menuitems li {
-	background-color: YELLOW;
+	font-size: 20px;
+	background-color: #F4FA58;
 }
 
 #menuitems li, .submenuitem li {
+	font-size: 15px;
 	color: BLUE;
 	display: inline;
 	margin: 0;
