@@ -13,7 +13,6 @@ body {
 	/*background-position:center top; background-color:#fff9b3;*/
 	background-repeat: no-repeat;
 	font-family: Tahoma, Arial, Verdana; font-size:12px;
-	background-color: #FFFD9C;
 }
 
 /* Heading */
@@ -65,7 +64,9 @@ a img, img {
   max-width: max-content;
 
 }
-
+#slide-wrapper {
+	margin-left: 10%;
+}
 /* paragraphs,blockquote,code */
 p {
 	margin-bottom:12px;
@@ -75,10 +76,9 @@ p {
 }
 
 #mainwrapper {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.4);
 	padding:0;
-	margin-left: 20%;
-	margin-right: 20%;
+
 }
 
 #menu , .selected, #submenu {
@@ -86,8 +86,7 @@ p {
 }
 
 #footer{
-	margin-left: 20%;
-	margin-right: 20%;
+
 	background-color: #0B2161;
 }
 
@@ -106,7 +105,7 @@ p {
 	font-size: 15px;
 	color: white;
 	display: inline;
-	margin: 10px;
+	margin: 40px;
 }
 /*#submenu{
 	margin-left: 30%;
@@ -149,13 +148,13 @@ li{
 	width:150px;
 }
 #submenu .store {
-	margin-left: 64%;
+	margin-left: 60%;
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
 }
 #submenu .business {
-	margin-left: 76%;
+	margin-left: 70%;
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
