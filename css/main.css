@@ -64,11 +64,9 @@ a img, img {
   max-width: max-content;
 
 }
-
-.frontpicture{
+#slide-wrapper {
 	margin-left: 10%;
 }
-
 /* paragraphs,blockquote,code */
 p {
 	margin-bottom:12px;
