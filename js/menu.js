@@ -21,7 +21,10 @@
 	function showSubMenu() {
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
 			var oldMenu = document.querySelector("#menu ." + selectedItem);
 			if (oldMenu) {
@@ -33,6 +36,10 @@
 			selectedItem = this.classList[0];
 		}else{
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 		}
 	}
 })();
