@@ -11,7 +11,7 @@
 	background-color: YELLOW;
 }
 
-#menuitems li, .submenuitem li {
+#menuitems li, #submenu li {
 	color: BLUE;
 	display: inline;
 	margin: 0;
