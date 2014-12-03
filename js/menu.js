@@ -21,11 +21,6 @@
 	function showSubMenu() {
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
-			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
 			var oldMenu = document.querySelector("#menu ." + selectedItem);
 			if (oldMenu) {
 				oldMenu.classList.remove("selected");
@@ -34,12 +29,6 @@
 			this.classList.add("selected");
 			newSubmenu.style.display = "";
 			selectedItem = this.classList[0];
-		}else{
-			document.querySelector("#submenu ." + selectedItem).style.display = "none";
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 		}
 	}
 })();

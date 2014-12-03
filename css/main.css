@@ -170,9 +170,9 @@ body {
 }
 
 #map {
-	vertical-align: middle;
-	height: 600px;
-	width: 600px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
 }
 
 #locating-message img {
