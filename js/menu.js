@@ -21,14 +21,24 @@
 	function showSubMenu() {
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
+<<<<<<< HEAD
 			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
+=======
+			var oldMenu = document.querySelector("#menu ." + selectedItem);
+			if (oldMenu) {
+				oldMenu.classList.remove("selected");
+			}
+>>>>>>> 94bbd76bb37ebef6fec1cf91a43595274b7e577b
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
 			this.classList.add("selected");
 			newSubmenu.style.display = "";
 			selectedItem = this.classList[0];
+<<<<<<< HEAD
 		}else{
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
 
+=======
+>>>>>>> 94bbd76bb37ebef6fec1cf91a43595274b7e577b
 		}
 	}
 })();
