@@ -26,6 +26,9 @@
 			this.classList.add("selected");
 			newSubmenu.style.display = "";
 			selectedItem = this.classList[0];
+		}else{
+			document.querySelector("#submenu ." + selectedItem).style.display = "none";
+
 		}
 	}
 })();
