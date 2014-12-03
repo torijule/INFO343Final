@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #menu , .selected, #submenu {
 	background-color: RED !important;
 }
@@ -22,3 +23,21 @@
 #menucontainer ul {
 	margin: 0;
 }
+=======
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 18px; 
+}
+
+#map {
+	vertical-align: middle;
+	height: 600px;
+	width: 600px;
+}
+
+#locating-message img {
+    vertical-align: middle;
+}
+>>>>>>> d3dc026eb3ff9da843038cd1c2418b32463e78df
