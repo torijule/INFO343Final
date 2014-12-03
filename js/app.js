@@ -8,8 +8,8 @@ var i;
 var coordinates;
 var marker;
 var content;
-var scale = $('#map');
 var number;
+//var scale = $('#map');
 
 //$(window).resize(mapScale);
 
