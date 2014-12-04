@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 body {
   background-image: url(../images/pic.jpg);
   background-size: cover;
-  /*background-position:center top; background-color:#fff9b3;*/
   background-repeat: no-repeat;
   font-family: Tahoma, Arial, Verdana; font-size:12px;
 }
@@ -10,16 +8,8 @@ body {
 #wrapper {
 	background-image: url(../images/pic.jpg);
 	background-size: cover;
-	/*background-position:center top; background-color:#fff9b3;*/
 	background-repeat: no-repeat;
 	font-family: Tahoma, Arial, Verdana; font-size:12px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: #FFFD9C;
-=======
->>>>>>> Jessica
-=======
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 
 /* Heading */
@@ -71,19 +61,9 @@ a img, img {
   max-width: max-content;
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
 #slide-wrapper {
 	margin-left: 10%;
 }
->>>>>>> Jessica
-=======
-#slide-wrapper {
-	margin-left: 10%;
-}
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 /* paragraphs,blockquote,code */
 p {
 	margin-bottom:12px;
@@ -93,22 +73,9 @@ p {
 }
 
 #mainwrapper {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: rgba(0, 0, 0, 0.6);
-	padding:0;
-	margin-left: 20%;
-	margin-right: 20%;
-=======
 	background-color: rgba(0, 0, 0, 0.4);
 	padding:0;
 
->>>>>>> Jessica
-=======
-	background-color: rgba(0, 0, 0, 0.4);
-	padding:0;
-
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 
 #menu , .selected, #submenu {
@@ -116,16 +83,7 @@ p {
 }
 
 #footer{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-left: 20%;
-	margin-right: 20%;
-=======
 
->>>>>>> Jessica
-=======
-
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #0B2161;
 }
 
@@ -144,15 +102,7 @@ p {
 	font-size: 15px;
 	color: white;
 	display: inline;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin: 10px;
-=======
 	margin: 40px;
->>>>>>> Jessica
-=======
-	margin: 40px;
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 /*#submenu{
 	margin-left: 30%;
@@ -195,36 +145,20 @@ li{
 	width:150px;
 }
 #submenu .store {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-left: 64%;
-=======
 	margin-left: 60%;
->>>>>>> Jessica
-=======
-	margin-left: 60%;
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
 }
 #submenu .business {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-left: 76%;
-=======
 	margin-left: 70%;
->>>>>>> Jessica
-=======
-	margin-left: 70%;
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
 }
 
 
-=======
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
@@ -233,12 +167,12 @@ body {
 }
 
 #map {
-    height: 600px;
-    margin: 0;
-    padding: 0;
+	height: 600px;
+	padding: 0;
+	margin: 0;
 }
 
 #locating-message img {
     vertical-align: middle;
 }
->>>>>>> d3dc026eb3ff9da843038cd1c2418b32463e78df
+
