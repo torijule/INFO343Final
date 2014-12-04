@@ -10,6 +10,11 @@ var marker;
 var content;
 var number;
 var scale = $('#map');
+<<<<<<< HEAD
+=======
+
+//$(window).resize(mapScale);
+>>>>>>> map
 
 var locations = [
     ['Tan Pro USA', 41.377849, -83.117113, '2200 Sean St Fremont, OH 43420', '419-355-8950'],
