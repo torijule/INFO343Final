@@ -11,64 +11,67 @@
 
 <body class="home blog">
 	<div id="wrapper">
-		<div id="topwrapper"></div>
+		<div id="topwrapper">
+		<!-- Logo Start -->
+			<div id="logo">
+				<a href="" alt="Logo" />
+					<img src="./images/logo.png" alt="logo" />
+				</a>
+			</div>
+			<!-- Logo End -->
+			<div id="headerright">
+
+				<div class="header-right">
+					<div class="search-box">
+						<form id="searchform" method="get" action="http://www.tanprousa.com/">
+
+							<input type="text" id="s" name="s" placeholder="Search..." class="searchinput">
+							<input type="submit" value="" class="searchsubmit">
+						</form>
+
+					</div>
+					<div class="social-icon">
+						<ul>
+							<li>
+								<a href="http://facebook.com/tanprorocks" title="Facebook" target="_blank"><img src="./images/icons/facebook-icon.jpg" alt="facebook" />
+								</a>
+							</li>
+							<li>
+								<a href="http://twitter.com/tanprousa" title="Twitter" target="_blank"><img src="./images/icons/twitter-icon.jpg" alt="twitter" />
+								</a>
+							</li>
+							<!--<li><a href="http://www.tanprousa.com"><img src="/images/icons/you-tube-icon.jpg" alt="you tube"/></a>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</div>
+
 		<div id="mainwrapper">
 			<!-- Header Start -->
+
 			<div id="header">
 				<div class="center">
-					<!-- Logo Start -->
-					<div id="logo">
-						<a href="" alt="Logo" />
-							<img src="./images/logo.jpg" alt="logo" />
-						</a>
-					</div>
-					<!-- Logo End -->
 
-					<div id="headerright">
-
-						<div class="header-right">
-							<div class="search-box">
-								<form id="searchform" method="get" action="http://www.tanprousa.com/">
-
-									<input type="text" id="s" name="s" placeholder="Search..." class="searchinput">
-									<input type="submit" value="" class="searchsubmit">
-								</form>
-
-							</div>
-							<div class="social-icon">
-								<ul>
-									<li>
-										<a href="http://facebook.com/tanprorocks" title="Facebook" target="_blank"><img src="./images/icons/facebook-icon.jpg" alt="facebook" />
-										</a>
-									</li>
-									<li>
-										<a href="http://twitter.com/tanprousa" title="Twitter" target="_blank"><img src="./images/icons/twitter-icon.jpg" alt="twitter" />
-										</a>
-									</li>
-									<!--<li><a href="http://www.tanprousa.com"><img src="/images/icons/you-tube-icon.jpg" alt="you tube"/></a>
-									</li>-->
-								</ul>
-							</div>
-						</div>
-
-					</div>
-
+					
 					<!-- Menu Navigation Start -->
 					<div id="menucontainer">
 						<div id="menu">
 							<ul id="menuitems">
-								
-								<li class="home"><a href="">HOME</a></li>
-								<li class="memberships"><a href="./memberships">MEMBERSHIPS</a></li>
-								<li class="about">TAN PRO USA</li>
-								<li class="products">PRODUCTS &amp; SERVICES</li>
-								<li class="store">STORE</li>
-								<li class="business">BUSINESS INFORMATION</li>
+								<li class="home button"><a href="">HOME</a></li>
+								<li class="memberships button"><a href="./memberships">MEMBERSHIPS</a></li>
+								<li class="about dropdown">TAN PRO USA</li>
+								<li class="products dropdown">PRODUCTS & SERVICES</li>
+								<li class="store dropdown">STORE</li>
+								<li class="business dropdown">INFORMATION</li>
 							</ul>
 						</div>
 						<div id="submenu">
 							<ul class="placeholder">
-								<li><!-- nothing --></li>
+								<li>
+									<!-- nothing -->
+								</li>
 							</ul>
 							<ul class="about">
 								<li><a href="./about/">About us</a></li>
@@ -98,9 +101,19 @@
 			</div>
 			<!-- Header End  -->
 
+			<!-- Slideshow Wrapper -->
 			<div id="slide-wrapper">
-				<img src="./images/banner.jpg" alt="banner" />
+				<img src="./images/banner.jpg" alt="banner" width="1000px" height="500px"/>
+				<img src="./images/tanwoman.jpg" alt="sunless-tanning" width="1000px" height="500px"/>
+
+				<!-- Slideshow Start -->
+				<!--<div id="slider">
+					
+				</div>-->
+				<!-- Slideshow End  -->
 			</div>
+			<!-- Slideshow Wrapper End -->
+			<div class="clear"></div>
 
 			<div class="skincare-box">
 				<div class="skin-care">
@@ -119,25 +132,31 @@
 				</div>
 			</div>
 
+			<div class="clear"></div>
 			<div class="center">
 				<!-- Main Content -->
 				<div class="maincontent">
+					<!-- 
+					<h3>Welcome to Our Site!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum dui quis sem fermentum a mattis ipsum ultrices. Integer eu lacus sit amet mauris hendrerit egestas et eget neque. Mauris ac justo tempus velit imperdiet placerat. Nullam dolor lectus, sollicitudin sed dictum nec, consequat in erat. Quisque nibh ligula</p>-->
+
+
 					<div class="e-club-special">
 						<div class="special">
 							<ul>
-								E-Club Specials:
-								<li>
-									<a href="e-club-specials" title="$10 OFF Purchase of $40 or more!">$10 OFF Purchase of $40 or more!</a>
+								<li class="col1">E-Club Specials:</li>
+								<!--<li class="col2"><a href="e-club-specials" title="$10 OFF Purchase of $40 or more!">$10 OFF Purchase of $40 or more!</a></li>-->
+								<li class="col2"><a href="e-club-specials-2" title="$10 The Works - Versa Spa Coupon">$10 The Works - Versa Spa Coupon</a>
 								</li>
-								<li>
-									<a href="e-club-specials-2" title="$10 The Works - Versa Spa Coupon">$10 The Works - Versa Spa Coupon</a>
-								</li>
+								<!--<li class="col2">Sample Special 3</li>
+								<li class="col2">Sample Special 4</li>
+								<li class="col2">Sample Special 5</li>
+								<li class="col3"><a href="">Learn More>></a></li>-->
 							</ul>
 						</div>
 					</div>
 
 					<div class="tanwoman"><img src="./images/tanwoman.jpg" alt="sunless-tanning" /> </div>
-					<div class="tanwoman"><img src="./images/tanwoman1.jpg" alt="sunless-tanning" /> </div>
 
 					<div class="sidebar">
 						<div class="sidebartop"></div>
