@@ -14,9 +14,12 @@ body {
 	background-repeat: no-repeat;
 	font-family: Tahoma, Arial, Verdana; font-size:12px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-color: #FFFD9C;
 =======
 >>>>>>> Jessica
+=======
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 
 /* Heading */
@@ -69,12 +72,18 @@ a img, img {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 #slide-wrapper {
 	margin-left: 10%;
 }
 >>>>>>> Jessica
+=======
+#slide-wrapper {
+	margin-left: 10%;
+}
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 /* paragraphs,blockquote,code */
 p {
 	margin-bottom:12px;
@@ -85,6 +94,7 @@ p {
 
 #mainwrapper {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-color: rgba(0, 0, 0, 0.6);
 	padding:0;
 	margin-left: 20%;
@@ -94,6 +104,11 @@ p {
 	padding:0;
 
 >>>>>>> Jessica
+=======
+	background-color: rgba(0, 0, 0, 0.4);
+	padding:0;
+
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 
 #menu , .selected, #submenu {
@@ -102,11 +117,15 @@ p {
 
 #footer{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 20%;
 	margin-right: 20%;
 =======
 
 >>>>>>> Jessica
+=======
+
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #0B2161;
 }
 
@@ -126,10 +145,14 @@ p {
 	color: white;
 	display: inline;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: 10px;
 =======
 	margin: 40px;
 >>>>>>> Jessica
+=======
+	margin: 40px;
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 }
 /*#submenu{
 	margin-left: 30%;
@@ -173,20 +196,28 @@ li{
 }
 #submenu .store {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 64%;
 =======
 	margin-left: 60%;
 >>>>>>> Jessica
+=======
+	margin-left: 60%;
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
 }
 #submenu .business {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 76%;
 =======
 	margin-left: 70%;
 >>>>>>> Jessica
+=======
+	margin-left: 70%;
+>>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
@@ -202,9 +233,9 @@ body {
 }
 
 #map {
-	vertical-align: middle;
-	height: 600px;
-	width: 600px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
 }
 
 #locating-message img {
