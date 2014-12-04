@@ -69,9 +69,6 @@ a img, img {
 	margin-left: 10%;
 }
 
-#slide-wrapper {
-	margin-left: 10%;
-}
 
 /* paragraphs,blockquote,code */
 p {
@@ -82,13 +79,6 @@ p {
 }
 
 #mainwrapper {
-
-	background-color: rgba(0, 0, 0, 0.6);
-	padding:0;
-	margin-left: 20%;
-	margin-right: 20%;
-	background-color: rgba(0, 0, 0, 0.4);
-	padding:0;
 	background-color: rgba(0, 0, 0, 0.4);
 	padding:0;
 
@@ -99,9 +89,6 @@ p {
 }
 
 #footer{
-
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #0B2161;
 }
 
