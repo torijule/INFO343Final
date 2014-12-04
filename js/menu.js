@@ -22,13 +22,23 @@
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
 			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
+<<<<<<< HEAD
+=======
+			var oldMenu = document.querySelector("#menu ." + selectedItem);
+			if (oldMenu) {
+				oldMenu.classList.remove("selected");
+			}
+>>>>>>> Jessica
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
 			this.classList.add("selected");
 			newSubmenu.style.display = "";
 			selectedItem = this.classList[0];
 		}else{
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
+<<<<<<< HEAD
 
+=======
+>>>>>>> Jessica
 		}
 	}
 })();

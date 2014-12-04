@@ -13,7 +13,10 @@ body {
 	/*background-position:center top; background-color:#fff9b3;*/
 	background-repeat: no-repeat;
 	font-family: Tahoma, Arial, Verdana; font-size:12px;
+<<<<<<< HEAD
 	background-color: #FFFD9C;
+=======
+>>>>>>> Jessica
 }
 
 /* Heading */
@@ -65,7 +68,13 @@ a img, img {
   max-width: max-content;
 
 }
+<<<<<<< HEAD
 
+=======
+#slide-wrapper {
+	margin-left: 10%;
+}
+>>>>>>> Jessica
 /* paragraphs,blockquote,code */
 p {
 	margin-bottom:12px;
@@ -75,10 +84,16 @@ p {
 }
 
 #mainwrapper {
+<<<<<<< HEAD
 	background-color: rgba(0, 0, 0, 0.6);
 	padding:0;
 	margin-left: 20%;
 	margin-right: 20%;
+=======
+	background-color: rgba(0, 0, 0, 0.4);
+	padding:0;
+
+>>>>>>> Jessica
 }
 
 #menu , .selected, #submenu {
@@ -86,8 +101,12 @@ p {
 }
 
 #footer{
+<<<<<<< HEAD
 	margin-left: 20%;
 	margin-right: 20%;
+=======
+
+>>>>>>> Jessica
 	background-color: #0B2161;
 }
 
@@ -106,7 +125,11 @@ p {
 	font-size: 15px;
 	color: white;
 	display: inline;
+<<<<<<< HEAD
 	margin: 10px;
+=======
+	margin: 40px;
+>>>>>>> Jessica
 }
 /*#submenu{
 	margin-left: 30%;
@@ -149,13 +172,21 @@ li{
 	width:150px;
 }
 #submenu .store {
+<<<<<<< HEAD
 	margin-left: 64%;
+=======
+	margin-left: 60%;
+>>>>>>> Jessica
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
 }
 #submenu .business {
+<<<<<<< HEAD
 	margin-left: 76%;
+=======
+	margin-left: 70%;
+>>>>>>> Jessica
 	background-color: #08088A;
 	font-size: 15px;
 	width:150px;
