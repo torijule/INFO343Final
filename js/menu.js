@@ -21,14 +21,27 @@
 	function showSubMenu() {
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
+<<<<<<< HEAD
+			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
+=======
+>>>>>>> map
 			var oldMenu = document.querySelector("#menu ." + selectedItem);
 			if (oldMenu) {
 				oldMenu.classList.remove("selected");
 			}
+<<<<<<< HEAD
+
+=======
+>>>>>>> map
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
 			this.classList.add("selected");
 			newSubmenu.style.display = "";
 			selectedItem = this.classList[0];
+<<<<<<< HEAD
+		}else{
+			document.querySelector("#submenu ." + selectedItem).style.display = "none";
+=======
+>>>>>>> map
 		}
 	}
 })();
