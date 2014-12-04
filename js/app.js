@@ -9,13 +9,7 @@ var coordinates;
 var marker;
 var content;
 var number;
-<<<<<<< HEAD
-//var scale = $('#map');
-=======
 var scale = $('#map');
->>>>>>> 53b79cbbefce81dd50452169e96089fd95576e57
-
-//$(window).resize(mapScale);
 
 var locations = [
     ['Tan Pro USA', 41.377849, -83.117113, '2200 Sean St Fremont, OH 43420', '419-355-8950'],
@@ -49,7 +43,6 @@ var mapOptions = {
 var mapElem = document.getElementById('map');
 
 var map = new google.maps.Map(mapElem, mapOptions);
-//mapScale();
 setMarkers(map, locations);
 
 function setMarkers(map, locations) {
