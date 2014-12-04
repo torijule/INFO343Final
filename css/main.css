@@ -167,15 +167,9 @@ body {
 }
 
 #map {
-<<<<<<< HEAD
 	height: 600px;
 	padding: 0;
 	margin: 0;
-=======
-	vertical-align: middle;
-	height: 600px;
-	width: 600px;
->>>>>>> 39c976b65ec6ad2cd42a9ea013134c6e0092ecf6
 }
 
 #locating-message img {
