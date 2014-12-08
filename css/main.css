@@ -60,6 +60,10 @@ h1 a:focus {
 	text-decoration: none;
 }
 
+#main-content {
+	background-color: #fffef7;
+}
+
 #main-footer {
 	font-size: 11px;
 }
@@ -90,7 +94,7 @@ h1 a:focus {
 	border: 5px solid;
 	border-left: none;
 	border-right: none;
-	background-color: #fffef7;
+	background-color: #ffe8c0;
 }
 
 #main-wrapper > * {
