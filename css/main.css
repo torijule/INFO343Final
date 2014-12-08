@@ -24,7 +24,7 @@ h1 a {
 }
 
 .info-box {
-	background-color: #ffe8c0;
+	background-color: #fffef7;
 	border-bottom: 2px solid;
 	font-size: 14px;
 	padding: 15px;
@@ -145,6 +145,7 @@ h1 a:focus {
 @media (min-width: 768px) {
 
 	.info-box {
+		background-color: #ffe8c0;
 		border: 2px solid;
 		border-radius: 5px;
 		box-shadow: 0 0 3px 0 BLACK;
@@ -179,4 +180,10 @@ h1 a:focus {
 		width: 826px;
 	}
 	
+}
+
+#map {
+	height: 600px;
+	padding: 0;
+	margin: 0;
 }
