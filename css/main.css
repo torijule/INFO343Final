@@ -2,15 +2,6 @@ a {
 	color: #7182F5;
 }
 
-body {
-	background-image: url("../img/images.jpg");
-	background-repeat: none;
-	background-size: cover;
-	border-color: #be1e2d;
-	color: #be1e2d;
-	font-family: Tahoma, Verdana, Arial, sans-serif;
-}
-
 body,
 h1 a {
 	color: #be1e2d;
@@ -23,13 +14,6 @@ h1 a {
 .carousel-indicators  li {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-color: #c11c20;
-}
-
-.info-box {
-	background-color: #fffef7;
-	border-bottom: 2px solid;
-	font-size: 14px;
-	padding: 15px;
 }
 
 .info-box dd {
@@ -73,11 +57,6 @@ h1 a:focus {
 	padding: 0;
 }
 
-h1 a:hover,
-h1 a:focus {
-	color: #8d1621;
-	text-decoration: none;
-}
 
 #main-footer {
 	font-size: 11px;
@@ -122,7 +101,7 @@ h1 a:focus {
 }
 
 .navbar-default {
-	background-color: #AB2E2E;
+	background-color: #6A0000;
 }
 
 .navbar-default a {
@@ -153,16 +132,53 @@ h1 a:focus {
 
 /* for carousel */
 @media (min-width: 836px) {
-
 	#carousel-wrapper .carousel {
 		margin-left: auto;
 		margin-right: auto;
 		width: 816px;
 	}
 }
+
+/*XS devices (cellphone, less than 768)*/
+@media (max-width: 768px){
+	body{
+		background-image: none;
+	}
+	h1 a{
+		color:white;
+	}
+	#carousel-wrapper{
+		border-bottom: 2px solid;
+	}
+	.info-box {
+		background-color: #DC8400;
+		color:white;
+		border-bottom: 2px solid;
+		font-size: 14px;
+		padding: 15px;
+	}
+
+	/*Color for footer and header*/
+	#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+		border: none;
+		background-color: #F3FFA6;
+	}
+	.search-box{
+		display: none;
+	}
+	#searchformInSmall{
+		display: inherit;
+	}
+	a{
+		color: #404CAC;
+	}
+	a:hover{
+		color: #101964;
+	}
+
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
 	.info-box {
 		border: 2px solid;
 		border-radius: 5px;
@@ -182,6 +198,16 @@ h1 a:focus {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.info-box {
+		border-bottom: 2px solid;
+		font-size: 14px;
+		padding: 15px;
+	}
+	#searchformInSmall{
+		display: none;
+	}
+
+
 
 }
 
@@ -197,6 +223,15 @@ h1 a:focus {
 		margin-right: auto;
 		width: 826px;
 	}
+	body {
+		background-image: url("../img/images.jpg");
+		background-repeat: none;
+		background-size: cover;
+		border-color: #be1e2d;
+		color: #be1e2d;
+		font-family: Tahoma, Verdana, Arial, sans-serif;
+	}
+
 	
 }
 

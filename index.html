@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en-US">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -9,246 +8,220 @@
 	<script type="text/javascript" src="./js/menu.js"></script>
 </head>
 
-<body class="home blog">
+<!--<body class="home blog">
 	<div id="wrapper">
-		<div id="topwrapper">
+		<div  class="container-fluid" id="topwrapper">
 		<!-- Logo Start -->
-			<div id="logo">
+<!--			<div id="logo">
 				<a href="" alt="Logo" />
-					<img src="./images/logo.png" alt="logo" />
+					<img src="./img/logo.jpg" alt="logo" class="col-md-4"/>
 				</a>
 			</div>
 			<!-- Logo End -->
-			<div id="headerright">
+<!--			<div id="headerright">
 
 				<div class="header-right">
 					<div class="search-box">
 						<form id="searchform" method="get" action="http://www.tanprousa.com/">
 
-							<input type="text" id="s" name="s" placeholder="Search..." class="searchinput">
-							<input type="submit" value="" class="searchsubmit">
+							<input class="col-md-3" type="text" id="s" name="s" placeholder="Search..." class="searchinput">
+							<input class="col-md-1" type="submit" value="search" class="searchsubmit">
 						</form>
-
 					</div>
-					<div class="social-icon">
-						<ul>
-							<li>
-								<a href="http://facebook.com/tanprorocks" title="Facebook" target="_blank"><img src="./images/icons/facebook-icon.jpg" alt="facebook" />
-								</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>-->
+<html>
+	<head>
+		<title>
+			Tan Pro USA - Welcome!
+		</title>
+		<link rel="shortcut icon" href="./img/icons/tanpro_favicon.png" />
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		
+		<script src="./js/jquery-2.1.1.min.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="header-right">
+						<div class="search-box">
+							<form id="searchform" method="get" action="http://www.tanprousa.com/">
+								<p class="col-md-9" id="placeholer"></p>
+								<input class="col-md-2" type="text" id="s" name="s" placeholder="Search..." class="searchinput">
+								<input class="col-md-1" type="submit" value="search" class="searchsubmit">
+							</form>
+						</div>
+					</div>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand logo-text" href="./index.html"><img src="./img/logo_hor2.png" alt="Tan Pro" /></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<!--trying to add the search bar to the drop down menu for small screen-->
+							<li>	
+								<div class="search-box">
+									<form id="searchformInSmall" method="get" action="http://www.tanprousa.com/">
+										<input type="text" id="s" name="s" placeholder="Search..." class="searchinput">
+										<input type="submit" value="search" class="searchsubmit">
+									</form>
+								</div>
+							</li>
+							<!--end-->
+							<li><a href="./index.html">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="./about.html#about">About Tan Pro</a>
+									</li>
+									<li class="divider"></li>
+									<li><a href="./about.html#equipment">Equipment</a>
+									</li>
+									<li><a href="./about.html#skin-care">Skin care</a>
+									</li>
+									<li><a href="./about.html#sunless-tanning">Sunless tanning</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="./memberships.html">Memberships</a>
+							</li>
+							<li><a href="./specials.html">E-Club specials</a>
+							</li>
+							<li><a href="./faq.html">Tanning FAQ</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Us<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="./contact.html#locations">Store locations</a>
+									</li>
+									<li><a href="./contact.html#feedback">Leave feedback</a>
+									</li>
+								</ul>
 							</li>
 							<li>
-								<a href="http://twitter.com/tanprousa" title="Twitter" target="_blank"><img src="./images/icons/twitter-icon.jpg" alt="twitter" />
-								</a>
+								<a href="#"><img src="./img/icons/facebook-icon.png" alt="Facebook" /></a>
 							</li>
-							<!--<li><a href="http://www.tanprousa.com"><img src="/images/icons/you-tube-icon.jpg" alt="you tube"/></a>
-							</li>-->
+							<li>
+								<a href="#"><img src="./img/icons/twitter-icon.png" alt="Twitter" /></a>
+							</li>
 						</ul>
 					</div>
+					<!-- /.navbar-collapse -->
 				</div>
-			</div>			
-		</div>
 
-		<div id="mainwrapper">
-			<!-- Header Start -->
-
-			<div id="header">
-				<div class="center">
-
-					
-					<!-- Menu Navigation Start -->
-					<div id="menucontainer">
-						<div id="menu">
-							<ul id="menuitems">
-								<div class="placeholder"><!-- nothing --></div>
-								<li class="home"><a href="">HOME</a></li>
-								<li class="memberships"><a href="./memberships">MEMBERSHIPS</a></li>
-								<li class="about">TAN PRO USA</li>
-								<li class="products">PRODUCTS & SERVICES</li>
-								<li class="store">STORE</li>
-								<li class="business">INFORMATION</li>
-							</ul>
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+		
+		<main id="main-wrapper">
+			<header id="main-header">
+				<h1>Welcome to Tan Pro!</h1>
+			</header>
+			<main id="main-content">
+				<section id="carousel-wrapper">
+					<!-- carousel -->
+					<div data-ride="carousel" class="carousel slide" id="banners-carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li class="active" data-slide-to="0" data-target="#banners-carousel"></li>
+							<li data-slide-to="1" data-target="#banners-carousel" class=""></li>
+							<li data-slide-to="2" data-target="#banners-carousel" class=""></li>
+						</ol>
+						<div role="listbox" class="carousel-inner">
+							<div class="item active">
+								<img alt="First slide" src="./img/banner.jpg">
+							</div>
+							<div class="item">
+								<a href="./memberships.html"><img alt="First slide" src="./img/banner-membership.jpg"></a>
+							</div>
+							<div class="item">
+								<a href="./specials.html"><img alt="First slide" src="./img/banner-specials.jpg"></a>
+							</div>
 						</div>
-						<div id="submenu">
-							<ul class="placeholder">
-								<li>
-									<!-- nothing -->
-								</li>
-							</ul>
-							<ul class="about">
-								<li><a href="./about/">About us</a></li>
-								<li><a href="./faq/">Tanning FAQ</a></li>
-								<li><a href="./specials/">eClub specials</a></li>
-								<li><a href="./blog/">SunBlog</a></li>
-							</ul>
-							<ul class="products">
-								<li><a href="./products/skin-care/">Skin care</a></li>
-								<li><a href="./products/equipment/">Equipment</a></li>
-								<li><a href="./products/sunless-tanning/">Sunless tanning</a></li>
-							</ul>
-							<ul class="store">
-								<li><a href="./store-locations/">Store locations</a></li>
-								<li><a href="./contact-us/">Contact us</a></li>
-							</ul>
-							<ul class="business">
-								<li><a href="./open-a-store/">Open a store</a></li>
-								<li><a href="./join-our-team/">Join our team!</a></li>
-							</ul>
+						<!-- <a data-slide="prev" role="button" href="#banners-carousel" class="left carousel-control">
+							<span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a data-slide="next" role="button" href="#banners-carousel" class="right carousel-control">
+							<span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+						</a> -->
+					</div>
+					<!-- /carousel -->
+				</section>
+				
+				<section class="info-boxes-wrapper container-fluid">
+					<div class="info-box-container col-md-4 col-sm-6">
+						<div class="info-box">
+							<h1><a href="./about.html">About us</a></h1>
+							<p>
+								Tan Pro USA opened its doors in April 1998, starting with a 30 bed mega store in Mansfield Ohio. The concept was simple; build large clean facilities, offer no appointment tanning, outfit the store with state of the art equipment, and use a comprehensive innovative marketing plan. 
+							</p>
+							<a href="./about.html">Read more >></a>
 						</div>
 					</div>
-				</div>
-
-				<div class="navigation-bottom-bg"></div>
-
-			</div>
-			<!-- Header End  -->
-
-			<!-- Slideshow Wrapper -->
-			<div id="slide-wrapper">
-				<img src="./images/banner.jpg" alt="banner" width="1000px" height="500px"/>
-				<img src="./images/tanwoman.jpg" alt="sunless-tanning" width="1000px" height="500px"/>
-
-				<!-- Slideshow Start -->
-				<!--<div id="slider">
-					
-				</div>-->
-				<!-- Slideshow End  -->
-			</div>
-			<!-- Slideshow Wrapper End -->
-			<div class="clear"></div>
-
-			<div class="skincare-box">
-				<div class="skin-care">
-					<a href="skin-care"><img src="./images/skin-care.jpg" alt="skin-care" />
-					</a>
-				</div>
-				<div class="skin-care">
-					<a href="equipment"><img src="./images/equipment.jpg" alt="equipment" />
-					</a>
-				</div>
-				<div class="skin-care">
-					<a href="versaspa"><img src="./images/sunless-tanning.jpg" alt="sunless-tanning" />
-					</a>
-				</div>
-				<div class="skin-care"><img src="./images/tan_pro_update.jpg" alt="tanpro" />
-				</div>
-			</div>
-
-			<div class="clear"></div>
-			<div class="center">
-				<!-- Main Content -->
-				<div class="maincontent">
-					<!-- 
-					<h3>Welcome to Our Site!</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum dui quis sem fermentum a mattis ipsum ultrices. Integer eu lacus sit amet mauris hendrerit egestas et eget neque. Mauris ac justo tempus velit imperdiet placerat. Nullam dolor lectus, sollicitudin sed dictum nec, consequat in erat. Quisque nibh ligula</p>-->
-
-
-					<div class="e-club-special">
-						<div class="special">
+					<div class="info-box-container col-md-4 col-sm-6">
+						<div class="info-box">
+							<h1><a href="./specials.html">E-Club Specials</a></h1>
 							<ul>
-								<li class="col1">E-Club Specials:</li>
-								<!--<li class="col2"><a href="e-club-specials" title="$10 OFF Purchase of $40 or more!">$10 OFF Purchase of $40 or more!</a></li>-->
-								<li class="col2"><a href="e-club-specials-2" title="$10 The Works - Versa Spa Coupon">$10 The Works - Versa Spa Coupon</a>
-								</li>
-								<!--<li class="col2">Sample Special 3</li>
-								<li class="col2">Sample Special 4</li>
-								<li class="col2">Sample Special 5</li>
-								<li class="col3"><a href="">Learn More>></a></li>-->
+								<li>$10 The Works - Versa Spa Coupon</li>
 							</ul>
+							<a href="./specials.html">View all >></a>
+						</div>
+					</div>
+					<div class="info-box-container col-md-4 col-sm-4">
+						<div class="info-box">
+							<h1>SunBlog</h1>
+							<dl>
+								<dt><a href="http://www.tanprousa.com/294">Lotions with Membership</a></dt>
+								<dd>December 3, 2014</dd>
+								<dt><a href="http://www.tanprousa.com/pickerington">Pickerington</a></dt>
+								<dd>October 13, 2014</dd>
+								<dt><a href="http://www.tanprousa.com/hiring">HIRING!!!</a></dt>
+								<dd>September 2, 2014</dd>
+								<dt><a href="http://www.tanprousa.com/labor-day-sale-2">Labor Day Sale</a></dt>
+								<dd>August 27, 2014</dd>
+								<dt><a href="http://www.tanprousa.com/now-hiring-2">Now Hiring</a></dt>
+								<dd>August 19, 2014</dd>
+							</dl>
 						</div>
 					</div>
 
-					<div class="tanwoman"><img src="./images/tanwoman.jpg" alt="sunless-tanning" /> </div>
-
-					<div class="sidebar">
-						<div class="sidebartop"></div>
-						<div class="sidebarmain">
-							<div class="sidebarcontent">
-								<h4 class="sidebarheading">The SunBlog</h4>
-								<ul class="latestnews">
-									<li>
-										<a href="./blog/pickerington">Pickerington</a>
-										<p class="posteddate">Posted on October 13, 2014</p>
-									</li>
-									<li>
-										<a href="./blog/hiring">HIRING!!!</a>
-										<p class="posteddate">Posted on September 2, 2014</p>
-									</li>
-									<li>
-										<a href="./blog/labor-day-sale-2">Labor Day Sale</a>
-										<p class="posteddate">Posted on August 27, 2014</p>
-									</li>
-									<li>
-										<a href="./blog/now-hiring-2">Now Hiring</a>
-										<p class="posteddate">Posted on August 19, 2014</p>
-									</li>
-									<li>
-										<a href="./blog/its-monday">It's Monday</a>
-										<p class="posteddate">Posted on August 18, 2014</p>
-									</li>
-								</ul>
-								<div class="clear"></div>
-								<!--  <a href="http://www.tanprousa.com/about" class="button-more">View All Posts</a>-->
-							</div>
-						</div>
-						<div class="sidebarbottom"></div>
+				</section>
+			</main>
+			
+			<footer id="main-footer">
+				<div class="container-fluid">
+					<div class="col-md-3 col-sm-3">&copy;2014 The Best INFO 343 Group, All Rights Reserved</div>
+					<div class="col-md-3 col-sm-3"><a href="https://newsunshinehub.com/ws/policy">Terms and Conditions / Privacy Policy</a></div>
+					<div class="col-md-3 col-sm-3">
+						<ul>
+							<li><a href="./open-a-store.html">Open a store</a></li>
+							<li><a href="./apply.html">Join our team!</a></li>
+						</ul>
 					</div>
-
-
-				</div>
-				<!-- Main Content End -->
-
-
-				<!-- Sidebar -->
-				<div id="">
-					<!--remove id sidebar-->
-
-
-
-					<!-- Sidebar Box -->
-
-
-
-					<!-- Sidebar Box End -->
-				</div>
-				<!-- Sidebar End -->
-			</div>
-			<div class="clear"></div>
-		</div>
-		<!-- Footer Start -->
-		<div id="bottomwrapper"></div>
-		<div id="footer">
-
-
-			<div class="clear"></div>
-
-			<div class="footer">
-				<div class="footer-top-bg">
-					<div class="footer-text">
-						<div class="corner-left"></div>
-						<div class="middle-line">
-							<div class="copyright-text">
-								<ul>
-									<li class="col1">&#64; 2013 Tan Pro USA, All Rights Reserved.</li>
-									<li class="col2">Toll Free 866-826-7761</li>
-									<li class="col3"><a href="http://m.tanprousa.com">Mobile Site</a>
-									</li>
-									<li class="copyright-text"><a href="https://newsunshinehub.com/ws/policy" target="new">Click for Terms and Conditions and Privacy Policy.</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="corner-right"></div>
-					</div>
+					<div class="col-md-3 col-sm-3"><a href="tel:866-826-7761">Toll Free 866-826-7761</a></div>
 				</div>
 				<div class="footer-bottom-bg"></div>
-
-			</div>
-
-		</div>
-		<!-- Footer End  -->
-	</div>
-
-
-</body>
-
+			</footer>
+		</main>
+	</body>
 </html>
