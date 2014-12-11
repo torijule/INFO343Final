@@ -20,6 +20,10 @@ h1 a {
 	color:darkred;
 }
 
+.dropdown-toggle {
+	cursor: default;
+}
+
 .info-box dd {
 	color: #947e80;
 	font-size: 12px;
