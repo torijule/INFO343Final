@@ -1,231 +1,199 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>
-      Tan Pro USA - Welcome!
-    </title>
-    <link rel="shortcut icon" href="../img/icons/tanpro_favicon.png" />
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-  </head>
-  
-  <body>
-    <header>
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand logo-text" href="../index.html"><img src="../img/logo_hor2.png" alt="Tan Pro" /></a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="./index.html">Home</a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="../about.html#about">About Tan Pro</a>
-                  </li>
-                  <li class="divider"></li>
-                  <li><a href="../about.html#equipment">Equipment</a>
-                  </li>
-                  <li><a href="../about.html#skin-care">Skin care</a>
-                  </li>
-                  <li><a href="../about.html#sunless-tanning">Sunless tanning</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="../memberships.html">Memberships</a>
-              </li>
-              <li><a href="../specials.html">E-Club specials</a>
-              </li>
-              <li><a href="../faq.html">Tanning FAQ</a>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Us<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="../store-locations/index.html">Store locations</a>
-                  </li>
-                  <li><a href="../contact.html#feedback">Leave feedback</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#"><img src="../img/icons/facebook-icon.png" alt="Facebook" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="../img/icons/twitter-icon.png" alt="Twitter" /></a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-    </header>
-    
-    <main id="main-wrapper">
-      <header id="main-header">
-        <h1>Welcome to Tan Pro!</h1>
-      </header>
-      <main id="main-content">
-          <div class="navigation-bottom-bg"></div>
-
-     
-
-      <h1>Feedback</h1>
-
-      <div class = container>
-      <div id="feedbackForm">
-
-          <h3>Please Provide the Following Information:</h3>
-          <form name="feedback" id="feedback" method="post" class="form-horizontal" role="form">
-            
-             <div class="form-group" id="names">
-                 <div class="col-xs-6">
-                     <label for="userName" class="col-xs-6 control-label">Your Name</label>
-                     <input type="text" name="userName" id="userName" class="form-control" placeholder="Your Name (req)" required>
-                 </div>
-                 <div class="col-xs-6">
-                     <label for="employeeName" class="col-xs-6 control-label">Employee Name</label>
-                     <input type="text" name="employeeName" id="employeeName" class="form-control" placeholder="Employee Name (req)" required>
-                 </div>
-             </div>
-
-
-            <div class="form-group">
-              <div class="col-xs-4">
-                  <label for="date" class="col-xs-4 control-label">Date</label>
-                  <input type="date" name="date" id="date" class="form-control" placeholder="dd/mm/yyy" required>
-              </div>
-
-          
-              <div class="col-xs-4">
-                      <label for="membership" class ="col-xs-3 control-label">Membership</label>
-                  <select name="membership" id="membership" class="form-control" required>
-                     <option value="Gold">Gold</option>
-                     <option value="Gold6">Gold6</option>
-                     <option value="Platinum">Platinum</option>
-                     <option value="Platinum6">Platinum6</option>
-                     <option value="Platinum Plus">Platinum Plus</option>
-                     <option value="Platinum Plus6">Platinum Plus6</option>
-                     <option value="Grand">Grand</option>
-                     <option value="Grand6">Grand6</option>
-                     <option value="GrandVS">GrandVS</option>
-                     <option value="Grand6VS">Grand6VS</option>
-                     <option value="GrandHP">GrandHP</option>
-                     <option value="GrandHP6">GrandHP6</option>
-                     <option value="Package Customer">Package Customer</option>
-                  </select>
-              </div>
-   
-              
-              <div class="col-xs-4">
-               <label for="email" class="col-xs-2 control-label">Email</label>
-                  <input type="email" name="email" id="email" class="form-control" placeholder="your email address">
+   <head>
+      <title>
+         Tan Pro USA - Welcome!
+      </title>
+      <link rel="shortcut icon" href="../img/icons/tanpro_favicon.png" />
+      <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../css/main.css" />
+      <script src="../js/jquery-2.1.1.min.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand logo-text" href="../index.html"><img src="../img/logo_hor2.png" alt="Tan Pro" /></a>
                </div>
-          </div>
-
-          
-          <h3>Please Rate The Following:</h3>
-          <div class="form group">
-            <div class="col-xs-4">
-               <label for="service" >Service</label><br>
-               <input type="radio" name="serivce" value="excellent">Excellent<br>
-               <input type="radio" name="service" value="good">Good<br>
-               <input type="radio" name="service" value="fair">Fair<br>
-               <input type="radio" name="service" value="poor">Poor<br>
-               <input type="text" name="serviceInfo" id="serviceInfo" class="form-control" placeholder="Additional comments?">
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                     <li><a href="../index.html">Home</a>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="../about.html#about">About Tan Pro</a>
+                           </li>
+                           <li class="divider"></li>
+                           <li><a href="../about.html#equipment">Equipment</a>
+                           </li>
+                           <li><a href="../about.html#skin-care">Skin care</a>
+                           </li>
+                           <li><a href="../about.html#sunless-tanning">Sunless tanning</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="../memberships.html">Memberships</a>
+                     </li>
+                     <li><a href="../specials.html">E-Club specials</a>
+                     </li>
+                     <li><a href="../faq.html">Tanning FAQ</a>
+                     </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Us<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="../store-locations/index.html">Store locations</a>
+                           </li>
+                           <li><a href="../customer-care/index.html">Leave feedback</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#"><img src="../img/icons/facebook-icon.png" alt="Facebook" /></a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="../img/icons/twitter-icon.png" alt="Twitter" /></a>
+                     </li>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
             </div>
-
-            <div class="col-xs-4">
-               <label for="service" >Facility</label><br>
-               <input type="radio" name="facility" value="excellent">Excellent<br>
-               <input type="radio" name="facility" value="good">Good<br>
-               <input type="radio" name="facility" value="fair">Fair<br>
-               <input type="radio" name="facility" value="poor">Poor<br>
-                <input type="text" name="facilityInfo" id="facilityInfo" class="form-control" placeholder="Additional comments?">
+            <!-- /.container-fluid -->
+         </nav>
+      </header>
+      <main id="main-wrapper">
+         <header id="main-header">
+            <h1>Welcome to Tan Pro!</h1>
+         </header>
+         <main id="main-content">
+            <div class="navigation-bottom-bg"></div>
+            <h1>Feedback</h1>
+            <div class="container-fluid">
+            <div id="feedbackForm">
+            <h3>Please Provide the Following Information:</h3>
+            <form name="feedback" id="feedback" method="post" class="form-horizontal" role="form">
+               <div class="form-group" id="names">
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="userName" class="col-sm-6 col-xs-12 control-label">Your Name</label>
+                     <input type="text" name="userName" id="userName" class="form-control" placeholder="Your Name (req)" required>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="employeeName" class="col-sm-6 col-xs-12 control-label">Employee Name</label>
+                     <input type="text" name="employeeName" id="employeeName" class="form-control" placeholder="Employee Name (req)" required>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="date" class="col-sm-4 col-xs-12 control-label">Date</label>
+                     <input type="date" name="date" id="date" class="form-control" placeholder="dd/mm/yyyy (req)" required>
+                  </div>
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="membership" class ="col-sm-3 col-xs-12 control-label">Membership</label>
+                     <select name="membership" id="membership" class="form-control" placeholder="" required>
+                        <option value="Gold">Gold</option>
+                        <option value="Gold6">Gold6</option>
+                        <option value="Platinum">Platinum</option>
+                        <option value="Platinum6">Platinum6</option>
+                        <option value="Platinum Plus">Platinum Plus</option>
+                        <option value="Platinum Plus6">Platinum Plus6</option>
+                        <option value="Grand">Grand</option>
+                        <option value="Grand6">Grand6</option>
+                        <option value="GrandVS">GrandVS</option>
+                        <option value="Grand6VS">Grand6VS</option>
+                        <option value="GrandHP">GrandHP</option>
+                        <option value="GrandHP6">GrandHP6</option>
+                        <option value="Package Customer">Package Customer</option>
+                     </select>
+                  </div>
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="email" class="col-sm-2 col-xs-12 control-label">Email</label>
+                     <input type="email" name="email" id="email" class="form-control" placeholder="your email address (opt)">
+                  </div>
+               </div>
+               <h3 class="col-xs-12">Please Rate The Following:</h3>
+               <div class="form group">
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="service" >Service</label><br>
+                     <input type="radio" name="serivce" value="excellent">Excellent<br>
+                     <input type="radio" name="service" value="good">Good<br>
+                     <input type="radio" name="service" value="fair">Fair<br>
+                     <input type="radio" name="service" value="poor">Poor<br>
+                     <input type="text" name="serviceInfo" id="serviceInfo" class="form-control" placeholder="Additional comments?">
+                  </div>
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="service" >Facility</label><br>
+                     <input type="radio" name="facility" value="excellent">Excellent<br>
+                     <input type="radio" name="facility" value="good">Good<br>
+                     <input type="radio" name="facility" value="fair">Fair<br>
+                     <input type="radio" name="facility" value="poor">Poor<br>
+                     <input type="text" name="facilityInfo" id="facilityInfo" class="form-control" placeholder="Additional comments?">
+                  </div>
+                  <div class="col-sm-4 col-xs-12">
+                     <label for="service" >Additude</label>
+                     <br>
+                     <input type="radio" name="additude" value="excellent">Excellent <br>
+                     <input type="radio" name="additude" value="good">Good <br>
+                     <input type="radio" name="additude" value="fair">Fair <br>
+                     <input type="radio" name="additude" value="poor">Poor <br>
+                     <input type="text" name="additudeInfo" id="additudeInfo" class="form-control" placeholder="Additional comments?">
+                  </div>
+               </div>
+               <div class="form group">
+                  <div class="col-xs-12" id="other-things">
+                     <label for="other">Anything else you wish to tell us?</label>
+                     <input type="text" name="other" id="other" class="form-control" placeholder="Anything else? (opt)">
+                     <br>
+                  </div>
+               </div>
+               <div class="form group">
+                  <div class="col-xs-12">
+                     <div class="submit">
+                        <!--
+                           <script src="http://api.recaptcha.net/challenge?k=6LcNzv4SAAAAAB1vXqky-BvcdFVy-scsDkDWntcx" type="text/javascript"></script><script src="http://www.google.com/recaptcha/api/js/recaptcha.js" type="text/javascript"></script>
+                           <script type="text/javascript" src="../js/menu.js"></script>                      
+                           
+                           <noscript>
+                           &lt;iframe src="http://api.recaptcha.net/noscript?k=6LdOgPkSAAAAAIbV00-hrOb1Kdivn9sC9Pi_RPg2" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;
+                           &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;
+                           &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;
+                           </noscript>               <p id="captchaStatus" style="color: red;">&nbsp;</p>
+                           <span class="error" style="display:none" id="code1">Please Enter Verification Code.</span>
+                           <span class="error" style="display:none" id="error_code">Verificaion Code Doesn't Match.</span>
+                           
+                           -->
+                        <input type="submit" name="visual-form-builder-submit" value="Submit" class="" id="sendmail">
+                        <!--<input type="submit" id="sendmail" class="" value="Submit" name="visual-form-builder-submit" >-->
+                     </div>
+            </form>
+            </div><!--feedback form div -->
+            </div><!-- end of container-->
+            </section>
+         </main>
+         <footer id="main-footer">
+            <div class="container-fluid">
+               <div class="col-sm-3 col-sm-3">&copy;2014 The Best INFO 343 Group, All Rights Reserved</div>
+               <div class="col-sm-3 col-sm-3"><a href="https://newsunshinehub.com/ws/policy">Terms and Conditions / Privacy Policy</a></div>
+               <div class="col-sm-3 col-sm-3">
+                  <ul>
+                     <li><a href="./open-a-store.html">Open a store</a></li>
+                     <li><a href="./apply.html">Join our team!</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-3"><a href="tel:866-826-7761">Toll Free 866-826-7761</a></div>
             </div>
-
-             <div class="col-xs-4">
-               <label for="service" >Additude</label>
-               <br>
-
-               <input type="radio" name="additude" value="excellent">Excellent <br>
-               <input type="radio" name="additude" value="good">Good <br>
-               <input type="radio" name="additude" value="fair">Fair <br>
-               <input type="radio" name="additude" value="poor">Poor <br>
-                <input type="text" name="additudeInfo" id="additudeInfo" class="form-control" placeholder="Additional comments?">
-            </div>
-         </div>
-
-         <div class="form group">
-            <div class="col-xs-12">
-               <label for="other">Anything else you wish to tell us?</label>
-
-                <input type="text" name="other" id="other" class="form-control" placeholder="Anything else? (opt)">
-                <br>
-
-
-
-            </div>
-
-         </div>
-
-
-         <div class="form group">
-            <div class="col-xs-12">
-               <div class="submit">
-    
-   
-                          <script src="http://api.recaptcha.net/challenge?k=6LdOgPkSAAAAAIbV00-hrOb1Kdivn9sC9Pi_RPg2" type="text/javascript"></script><script src="http://www.google.com/recaptcha/api/js/recaptcha.js" type="text/javascript"></script>
-                          <script type="text/javascript" src="../js/menu.js"></script>                      
-
-   <noscript>
-      &lt;iframe src="http://api.recaptcha.net/noscript?k=6LdOgPkSAAAAAIbV00-hrOb1Kdivn9sC9Pi_RPg2" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;
-      &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;
-      &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;
-   </noscript>               <p id="captchaStatus" style="color: red;">&nbsp;</p>
-             <span class="error" style="display:none" id="code1">Please Enter Verification Code.</span>
-          <span class="error" style="display:none" id="error_code">Verificaion Code Doesn't Match.</span>
-          
-       
-      <input type="submit" name="visual-form-builder-submit" value="Submit" class="" id="sendmail">
-      <!--<input type="submit" id="sendmail" class="" value="Submit" name="visual-form-builder-submit" >-->
-    </div>
-  </form>
-      </div><!--feedback form div -->
-      </div><!-- end of container-->
-        </section>
+         </footer>
       </main>
-      
-      <footer id="main-footer">
-        <div class="container-fluid">
-          <div class="col-md-3 col-sm-3">&copy;2014 The Best INFO 343 Group, All Rights Reserved</div>
-          <div class="col-md-3 col-sm-3"><a href="https://newsunshinehub.com/ws/policy">Terms and Conditions / Privacy Policy</a></div>
-          <div class="col-md-3 col-sm-3">
-            <ul>
-              <li><a href="./open-a-store.html">Open a store</a></li>
-              <li><a href="./apply.html">Join our team!</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-3"><a href="tel:866-826-7761">Toll Free 866-826-7761</a></div>
-        </div>
-      </footer>
-    </main>
-  </body>
+   </body>
 </html>
