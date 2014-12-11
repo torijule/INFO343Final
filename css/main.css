@@ -1,94 +1,48 @@
-body {
-  background-image: url(../images/pic.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: Tahoma, Arial, Verdana; font-size:12px;
+a {
+	color: #7182F5;
 }
 
-#wrapper {
-	background-image: url(../images/pic.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: Tahoma, Arial, Verdana; font-size:12px;
+body,
+h1 a {
+	color: #be1e2d;
 }
 
-/* Heading */
-h1, h2, h3, h4, h5, h6{
-	font-weight:normal;
-	color:blue;
-	font-family: Tahoma, Arial, Verdana;
+.carousel-indicators {
+    bottom: 0;
 }
-h1{
-	font-size:36px; 
-	line-height:36px; 
-	margin-bottom:14px;
-}
-h2{
-	font-size:30px; 
-	line-height:30px; 
-	margin-bottom:14px;
-}
-h3{
-	font-size:24px; 
-	margin-bottom:12px;
-}
-h4{
-	font-size:18px; 
-	line-height:16px; 
-	margin-bottom:12px;
-}
-h5{
-	font-size:14px; 
-	margin-bottom: 12px; 
-	padding:0px;
-}
-h6{
-	font-size:12px; 
-	margin-bottom: 12px; 
-	padding:0px;
-	letter-spacing: 1px;
-}
-/* links */
-a,a:link,a:visited {
-  color:white;
-  text-decoration:none;
-}
-a:hover{
-  color:#555555;
-}
-a img, img {
-  border:none
-  max-width: max-content;
 
+.carousel-indicators  li {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #c11c20;
 }
-#slide-wrapper {
-	margin-left: 10%;
-}
-/* paragraphs,blockquote,code */
-p {
-	margin-bottom:12px;
-	color:#000000;
+
+.info-box dd {
+	color: #947e80;
 	font-size: 12px;
-	line-height: 17px;
+	margin-bottom: 3px;
+	margin-left: 10px;
 }
 
-#mainwrapper {
-	background-color: rgba(0, 0, 0, 0.4);
-	padding:0;
-
+.info-box dt {
+	font-weight: bold;
 }
 
-#menu , .selected, #submenu {
-	max-width: max-content;
+.info-box h1 {
+	font-size: 20px;
+	margin-top: 0;
 }
 
-#footer{
-
-	background-color: #0B2161;
+.info-box-container {
+	padding: 0;
 }
 
-#menuitems a {
-	color: inherit;
+.info-boxes-wrapper {
+	padding: 0;
+}
+
+h1 a:hover,
+h1 a:focus {
+	color: #8d1621;
 	text-decoration: none;
 	margin:10px;
 }
@@ -98,88 +52,211 @@ p {
 /*	background-color: #F4FA58;*/
 }
 
-#menuitems li, .submenuitem li {
-	font-size: 15px;
-	color: white;
-	display: inline;
-	margin: 40px;
+
+.info-boxes-wrapper {
+	padding: 0;
 }
-/*#submenu{
-	margin-left: 30%;
-	background-color: #08088A;
-	font-size: 15px;
-	width:150px;
-}*/
 
 
-li{
-    list-style-type:none;
-}
-#headerright {
-    margin-right: 1em;
-	position: absolute;
-    right: 60px;
-    top:10px;
-}
-.social-icon ul li{
-	display: inline;
+#main-footer {
+	font-size: 11px;
 }
 
-#menu {
-	background-color: #0B2161;
-	height:40px;
-	background-size:cover;
+#main-footer > .container-fluid > div {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#main-footer ul {
+	list-style-type: none;
 	margin: 0;
+	padding: 0;
 }
 
-#submenu .about {
-	margin-left: 30%;
-	background-color: #08088A;
-	font-size: 15px;
-	width:150px;
+#main-header {
+	padding: 15px;
 }
-#submenu .products {
-	margin-left: 45%;
-	background-color: #08088A;
-	font-size: 15px;
-	width:150px;
+
+#main-header h1 {
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
 }
-#submenu .store {
-	margin-left: 60%;
-	background-color: #08088A;
-	font-size: 15px;
-	width:150px;
+
+#main-wrapper {
+	border: 5px solid;
+	border-left: none;
+	border-right: none;
+	background-color: #fffef7;
 }
-#submenu .business {
-	margin-left: 70%;
-	background-color: #08088A;
-	font-size: 15px;
-	width:150px;
+
+#main-wrapper > * {
+	border-bottom: 5px solid;
+	border-top: 5px solid;
 }
+
+#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+	border: none;
+}
+
+.navbar-default {
+	background-color: #6A0000;
+}
+
+.navbar-default a {
+	color: #be1e2d;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	color:#E6E6E6;
+	background-color: #BA6565;
+}
+
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #d6bb8e;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default,
+.navbar-default .navbar-toggle {
+	border-color: #b49e78;
+}
+
+/* for carousel */
+@media (min-width: 836px) {
+	#carousel-wrapper .carousel {
+		margin-left: auto;
+		margin-right: auto;
+		width: 816px;
+	}
+}
+
+/*XS devices (cellphone, less than 768)*/
+@media (max-width: 768px){
+	body{
+		background-image: none;
+	}
+	h1 a{
+		color:#BE1E2D;
+	}
+	#carousel-wrapper{
+		border-bottom: 2px solid;
+	}
+	.info-box {
+
+		color:;
+		border-bottom: 2px solid;
+		font-size: 14px;
+		padding: 15px;
+	}
+	.info-boxes-wrapper{
+		background-image: url('../img/img2.jpg');
+		background-repeat: none;
+		background-size: cover;
+	}
+
+	/*Color for footer and header*/
+	#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+		border: none;
+		background-color: #F3FFA6;
+	}
+	.search-box{
+		display: none;
+	}
+	#searchformInSmall{
+		display: inherit;
+	}
+	a{
+		color: #404CAC;
+	}
+	a:hover{
+		color: #101964;
+	}
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.info-box {
+		border: 2px solid;
+		border-radius: 5px;
+		box-shadow: 0 0 3px 0 BLACK;
+		font-size: 14px;
+		margin-bottom: 15px;
+		margin-top: 15px;
+		padding: 15px;
+	}
+
+	.info-box-container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.info-boxes-wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.info-box {
+		border-bottom: 2px solid;
+		font-size: 14px;
+		padding: 15px;
+	}
+	#searchformInSmall{
+		display: none;
+	}
 
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-body {
-    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
-    font-size: 18px; 
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	#main-wrapper {
+		border: 5px solid;
+		border-radius: 10px;
+		box-shadow: 0 0 3px 0 BLACK;
+		margin-bottom: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 826px;
+	}
+	body {
+		background-image: url("../img/images.jpg");
+		background-repeat: none;
+		background-size: cover;
+		border-color: #be1e2d;
+		color: #be1e2d;
+		font-family: Tahoma, Verdana, Arial, sans-serif;
+	}
+
+	
+}
+
+/*for store-location*/
 #map {
 	height: 600px;
 	padding: 0;
 	margin: 0;
 }
 
-#locating-message img {
-    vertical-align: middle;
+
+/*For customer-care*/
+input#sendmail {
+	margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-=======
-.content h1 {
-	color: white;
+#other-things{
+	margin-top: 10px;
 }
-
->>>>>>> map
+h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
