@@ -116,13 +116,6 @@ h1 a:focus {
 	color: #be1e2d;
 }
 
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus {
-    background-color: #d6bb8e;
-    color: #555;
-}
-
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-toggle:hover,
@@ -131,13 +124,20 @@ h1 a:focus {
 	background-color: #BA6565;
 }
 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus {
-	background-color: #d6bb8e;
-}
-
 .navbar-default .navbar-nav>li>a {
 	color: white;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #c89393;
+    color: #555;
+}
+
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #c89393;
 }
 
 .navbar-default,
@@ -287,7 +287,7 @@ h3 {
 
 
 /*for about us*/
-price {
+.price {
 	font-size: 30px;
 }
 
