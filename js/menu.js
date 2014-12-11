@@ -21,11 +21,11 @@
 	function showSubMenu() {
 		var newSubmenu = document.querySelector("#submenu ." + this.classList[0]);
 		if (newSubmenu) {
-			document.querySelector("#menu ." + selectedItem).classList.remove("selected");
 			var oldMenu = document.querySelector("#menu ." + selectedItem);
 			if (oldMenu) {
 				oldMenu.classList.remove("selected");
 			}
+
 			document.querySelector("#submenu ." + selectedItem).style.display = "none";
 			this.classList.add("selected");
 			newSubmenu.style.display = "";

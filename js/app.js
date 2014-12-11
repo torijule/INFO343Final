@@ -9,7 +9,7 @@ var coordinates;
 var marker;
 var content;
 var number;
-//var scale = $('#map');
+var scale = $('#map');
 
 //$(window).resize(mapScale);
 
@@ -77,12 +77,15 @@ function setMarkers(map, locations) {
         })(marker, content, infowindow));
     }
 }
-/*function mapScale() {
-        var width = window.innerWidth * 0.8;
-        var height = window.innerHeight * 0.8;
 
-        scale.find('#map').css({
-            'height':height + 'px',
-            'width':width + 'px',
-        });
-    }*/
+//scale map to window size
+$(window).resize(scaleMap);
+
+function scaleMap() {
+    scale.css({
+        'height': window.innerHeight - map.position().top - 20 + 'px'
+    });
+}
+
+//initialize the scaleMap
+scaleMap();
