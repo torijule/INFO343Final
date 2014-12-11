@@ -16,6 +16,10 @@ h1 a {
 	border-color: #c11c20;
 }
 
+.dropdown-menu> li>a{
+	color:darkred;
+}
+
 .info-box dd {
 	color: #947e80;
 	font-size: 12px;
@@ -130,6 +134,10 @@ h1 a:focus {
 	border-color: #b49e78;
 }
 
+.text-content h1 {
+    font-size: 28px;
+}
+
 /* for carousel */
 @media (min-width: 836px) {
 	#carousel-wrapper .carousel {
@@ -151,35 +159,40 @@ h1 a:focus {
 		border-bottom: 2px solid;
 	}
 	.info-box {
-
-		color:;
 		border-bottom: 2px solid;
 		font-size: 14px;
 		padding: 15px;
 	}
-	.info-boxes-wrapper{
-		background-image: url('../img/img2.jpg');
-		background-repeat: none;
-		background-size: cover;
-	}
 
 	/*Color for footer and header*/
-	#main-wrapper > *:first-child, #main-wrapper > *:last-child {
-		border: none;
-		background-color: #F3FFA6;
-	}
-	.search-box{
-		display: none;
-	}
-	#searchformInSmall{
-		display: inherit;
-	}
+
 	a{
 		color: #404CAC;
 	}
 	a:hover{
 		color: #101964;
 	}
+}
+
+@media(max-width: 992px){
+	.info-boxes-wrapper{
+		background-image: url('../img/background-gradient-m.jpg');
+		background-color: yellow;
+		background-repeat: repeat-x;
+	}
+	#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+		border: none;
+		background-color: #F3FFA6;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color: lightgrey;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+		background-color: brown;
+		color: lightgrey;
+
+	}
+
 
 }
 /* Small devices (tablets, 768px and up) */
@@ -208,17 +221,19 @@ h1 a:focus {
 		font-size: 14px;
 		padding: 15px;
 	}
-	#searchformInSmall{
+	nav ul ul {
 		display: none;
 	}
-
-
-
+	nav ul li:hover > ul {
+		display: block;
+	}
+	.text-content {
+    	padding: 15px 30px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	
 	#main-wrapper {
 		border: 5px solid;
 		border-radius: 10px;
@@ -229,15 +244,13 @@ h1 a:focus {
 		width: 826px;
 	}
 	body {
-		background-image: url("../img/images.jpg");
-		background-repeat: none;
-		background-size: cover;
+		background-image: url("../img/background-gradient.jpg");
+/*		background-color: #fe6f01;*/
+		background-repeat: repeat-x;
 		border-color: #be1e2d;
 		color: #be1e2d;
 		font-family: Tahoma, Verdana, Arial, sans-serif;
 	}
-
-	
 }
 
 /*for store-location*/
@@ -259,4 +272,26 @@ input#sendmail {
 h3 {
 	margin-top: 10px;
 	margin-bottom: 0px;
+}
+
+
+/*for about us*/
+price {
+	font-size: 30px;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.info {
+	font-weight: bold;
+}
+
+.highlight {
+	border-top: solid 3px #c11c20;
+}
+
+.member-text {
+	font-size: 20px;
 }
