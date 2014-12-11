@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 a {
 	color: #7182F5;
+<<<<<<< HEAD
+=======
 }
 
 body,
@@ -36,6 +41,51 @@ h1 a {
 	padding: 0;
 }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Jessica
+a {
+	color: #7182F5;
+>>>>>>> master
+}
+
+body,
+h1 a {
+	color: #be1e2d;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-indicators  li {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #c11c20;
+}
+
+.info-box dd {
+	color: #947e80;
+	font-size: 12px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+
+.info-box dt {
+	font-weight: bold;
+}
+
+.info-box h1 {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.info-box-container {
+	padding: 0;
+}
+
+>>>>>>> master
 .info-boxes-wrapper {
 	padding: 0;
 }
@@ -50,6 +100,7 @@ h1 a:focus {
 #menuitems li {
 	font-size: 12px;
 /*	background-color: #F4FA58;*/
+<<<<<<< HEAD
 }
 
 
@@ -57,6 +108,99 @@ h1 a:focus {
 	padding: 0;
 }
 
+
+=======
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+.info-boxes-wrapper {
+	padding: 0;
+=======
+.info-box-container {
+	padding: 0;
+>>>>>>> master
+>>>>>>> master
+}
+>>>>>>> Jessica
+
+.info-boxes-wrapper {
+	padding: 0;
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
+#main-footer {
+	font-size: 11px;
+}
+
+#main-footer > .container-fluid > div {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#main-footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main-header {
+	padding: 15px;
+}
+
+#main-header h1 {
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+#main-wrapper {
+	border: 5px solid;
+	border-left: none;
+	border-right: none;
+	background-color: #fffef7;
+}
+
+#main-wrapper > * {
+	border-bottom: 5px solid;
+	border-top: 5px solid;
+}
+
+#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+	border: none;
+}
+
+.navbar-default {
+	background-color: #6A0000;
+<<<<<<< HEAD
+=======
+}
+
+.navbar-default a {
+	color: #be1e2d;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	color:#E6E6E6;
+	background-color: #BA6565;
+}
+
+=======
+h1 a:hover,
+h1 a:focus {
+	color: #8d1621;
+	text-decoration: none;
+}
+>>>>>>> Jessica
 
 #main-footer {
 	font-size: 11px;
@@ -121,17 +265,124 @@ h1 a:focus {
 	background-color: #d6bb8e;
 }
 
+<<<<<<< HEAD
 .navbar-default .navbar-nav>li>a {
 	color: white;
-}
-
+=======
 .navbar-default,
 .navbar-default .navbar-toggle {
 	border-color: #b49e78;
 }
 
+<<<<<<< HEAD
+=======
+#main-content {
+	background-color: #fffef7;
+}
+
+#main-footer {
+	font-size: 11px;
+}
+
+#main-footer > .container-fluid > div {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#main-footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main-header {
+	padding: 15px;
+}
+
+#main-header h1 {
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+#main-wrapper {
+	border: 5px solid;
+	border-left: none;
+	border-right: none;
+	background-color: #ffe8c0;
+}
+
+#main-wrapper > * {
+	border-bottom: 5px solid;
+	border-top: 5px solid;
+}
+
+#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+	border: none;
+}
+
+.navbar-default {
+	background-color: #ffe8c0;
+>>>>>>> master
+}
+
+.navbar-default a {
+	color: #be1e2d;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	color:#E6E6E6;
+	background-color: #BA6565;
+}
+
+>>>>>>> master
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #d6bb8e;
+>>>>>>> Jessica
+}
+
+<<<<<<< HEAD
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+<<<<<<< HEAD
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+=======
+=======
+>>>>>>> master
+>>>>>>> master
+.navbar-default,
+.navbar-default .navbar-toggle {
+	border-color: #b49e78;
+}
+
+<<<<<<< HEAD
 /* for carousel */
 @media (min-width: 836px) {
+=======
+<<<<<<< HEAD
+/* for carousel */
+@media (min-width: 836px) {
+=======
+=======
+>>>>>>> master
+/* for carousel */
+@media (min-width: 836px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
+>>>>>>> Jessica
+>>>>>>> master
 	#carousel-wrapper .carousel {
 		margin-left: auto;
 		margin-right: auto;
@@ -145,11 +396,61 @@ h1 a:focus {
 		background-image: none;
 	}
 	h1 a{
+<<<<<<< HEAD
 		color:#BE1E2D;
+=======
+<<<<<<< HEAD
+		color:#BE1E2D;
+=======
+		color:white;
+>>>>>>> Jessica
+>>>>>>> master
 	}
 	#carousel-wrapper{
 		border-bottom: 2px solid;
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	.info-box {
+		background-color: #DC8400;
+		color:white;
+		border-bottom: 2px solid;
+		font-size: 14px;
+		padding: 15px;
+	}
+
+	/*Color for footer and header*/
+	#main-wrapper > *:first-child, #main-wrapper > *:last-child {
+		border: none;
+		background-color: #F3FFA6;
+	}
+	.search-box{
+		display: none;
+	}
+	#searchformInSmall{
+		display: inherit;
+	}
+	a{
+		color: #404CAC;
+	}
+	a:hover{
+		color: #101964;
+	}
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+=======
+<<<<<<< HEAD
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+>>>>>>> Jessica
+>>>>>>> master
 	.info-box {
 
 		color:;
@@ -184,6 +485,14 @@ h1 a:focus {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
+>>>>>>> Jessica
+>>>>>>> master
 	.info-box {
 		border: 2px solid;
 		border-radius: 5px;
@@ -203,6 +512,13 @@ h1 a:focus {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Jessica
+>>>>>>> master
 	.info-box {
 		border-bottom: 2px solid;
 		font-size: 14px;
@@ -213,6 +529,14 @@ h1 a:focus {
 	}
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+>>>>>>> Jessica
+>>>>>>> master
 
 }
 
@@ -228,6 +552,13 @@ h1 a:focus {
 		margin-right: auto;
 		width: 826px;
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Jessica
+>>>>>>> master
 	body {
 		background-image: url("../img/images.jpg");
 		background-repeat: none;
@@ -237,6 +568,14 @@ h1 a:focus {
 		font-family: Tahoma, Verdana, Arial, sans-serif;
 	}
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+>>>>>>> Jessica
+>>>>>>> master
 	
 }
 
@@ -259,4 +598,8 @@ input#sendmail {
 h3 {
 	margin-top: 10px;
 	margin-bottom: 0px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
