@@ -2,6 +2,10 @@ a {
 	color: #7182F5;
 }
 
+.about h2 {
+	clear: right;
+}
+
 body,
 h1 a {
 	color: #be1e2d;
@@ -22,6 +26,11 @@ h1 a {
 
 .dropdown-toggle {
 	cursor: default;
+}
+
+.float-right {
+	float: right;
+	margin-bottom: 25px;
 }
 
 .info-box dd {
@@ -148,6 +157,10 @@ h1 a:focus {
     font-size: 28px;
 }
 
+.text-content h2 {
+    font-size: 20px;
+}
+
 /* for carousel */
 @media (min-width: 836px) {
 	#carousel-wrapper .carousel {
@@ -255,7 +268,7 @@ h1 a:focus {
 	}
 	body {
 		background-image: url("../img/background-gradient.jpg");
-/*		background-color: #fe6f01;*/
+		background-color: #fe6f01;
 		background-repeat: repeat-x;
 		border-color: #be1e2d;
 		color: #be1e2d;
@@ -299,6 +312,7 @@ h3 {
 }
 
 hr {
+	clear: both;
 	color: #c11c20;
 	border-color: #c11c20;
 	background-color: #c11c20;
