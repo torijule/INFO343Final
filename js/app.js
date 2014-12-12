@@ -8,6 +8,7 @@ var i;
 var coordinates;
 var marker;
 var content;
+var moreContent;
 var number;
 var scale = $('#map');
 
@@ -36,16 +37,74 @@ var locations = [
     ['Tan Pro USA', 39.358807, -82.973857, '1075 N Bridge St #146, Chillicothe, OH 45601', '740-851-4729']
 ];
 
-var mapOptions = {
-    center: {lat: 41.374457, lng:  -83.6316 },
-    zoom: 9
+var position = {
+    lat: 41.374457,
+    lng: -83.6316
 };
 
+var mapOptions = {
+    center: position,
+    zoom: 9
+};
 
 var mapElem = document.getElementById('map');
 
 var map = new google.maps.Map(mapElem, mapOptions);
-//mapScale();
+
+function onGeoPos(position) {
+    console.log("Lat: " + position.coords.latitutde);
+    console.log("Lng: " + position.coords.longitude);
+
+    /*var myLocPos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+    };*/
+
+    var myLocPos = {
+        lat: 41.4,
+        lng: -83.7
+    }
+
+    var myLocation = new google.maps.Marker({
+        position: myLocPos,
+        map: map,
+        icon: '../img/icon.png'
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    moreContent = 
+        '<p id="getHere">You are Here!</p>'
+
+    //listen for click event on marker
+    google.maps.event.addListener(myLocation, 'click', (function(marker, moreContent, infoWin) {
+        return function() {
+            infoWin.setContent(moreContent);
+            map.panTo(this.getPosition());
+            infoWin.open(map, myLocation);
+        };
+    })(marker, moreContent, infowindow));
+}
+
+function onMarkerClick() {
+    infoWin.setContent(moreContent);
+    map.panTo(this.getPosition());
+    infoWin.open(map, myLocation);
+}
+
+function onGeoErr(error) {
+    alert('code: '    + error.code    + '\n' +
+             'message: ' + error.message + '\n');
+}
+
+if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(onGeoPos, onGeoErr,
+        {enableHighAccuracy: true, maximumAge: 30000}); //the maximumAge makes it so the loading does not eat the battery of device.
+
+} else {
+    console.log("geolocation not supported");
+}
+
 setMarkers(map, locations);
 
 function setMarkers(map, locations) {
@@ -64,7 +123,7 @@ function setMarkers(map, locations) {
             position: coordinates
         });
 
-        content = "Name: " + name + '</br>' + "Address: " + address + '</br>' + "Phone Number: " + number
+        content = '<div id="getLocation">' + "Name: " + name + '</br>' + "Address: " + address + '</br>' + "Phone Number: " + number + '</div>'
 
         var infowindow = new google.maps.InfoWindow()
 

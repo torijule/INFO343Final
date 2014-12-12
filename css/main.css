@@ -311,3 +311,13 @@ hr {
 .coupon {
 	text-align: center;
 }
+
+#getHere {
+	height: 20px;
+	width: 80px;
+}
+
+#getLocation {
+	height: 60px;
+	width: 400px;
+}
