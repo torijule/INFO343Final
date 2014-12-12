@@ -52,9 +52,11 @@ var mapElem = document.getElementById('map');
 var map = new google.maps.Map(mapElem, mapOptions);
 
 function onGeoPos(position) {
+    var infowindow = new google.maps.InfoWindow();
     console.log("Lat: " + position.coords.latitutde);
     console.log("Lng: " + position.coords.longitude);
 
+    //This is the coordinates you would use to find your location!
     /*var myLocPos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
@@ -71,25 +73,12 @@ function onGeoPos(position) {
         icon: '../img/icon.png'
     });
 
-    var infowindow = new google.maps.InfoWindow();
-
-    moreContent = 
-        '<p id="getHere">You are Here!</p>'
-
     //listen for click event on marker
-    google.maps.event.addListener(myLocation, 'click', (function(marker, moreContent, infoWin) {
+    google.maps.event.addListener(myLocation, 'click', (function(marker, moreContent) {
         return function() {
-            infoWin.setContent(moreContent);
             map.panTo(this.getPosition());
-            infoWin.open(map, myLocation);
         };
-    })(marker, moreContent, infowindow));
-}
-
-function onMarkerClick() {
-    infoWin.setContent(moreContent);
-    map.panTo(this.getPosition());
-    infoWin.open(map, myLocation);
+    })(marker, moreContent));
 }
 
 function onGeoErr(error) {
@@ -108,6 +97,8 @@ if(navigator.geolocation) {
 setMarkers(map, locations);
 
 function setMarkers(map, locations) {
+    var infowindow = new google.maps.InfoWindow()
+
     for (i = 0; i < locations.length; i++) {
         name = locations[i][0]
         latitude = locations[i][1]
@@ -125,18 +116,19 @@ function setMarkers(map, locations) {
 
         content = '<div id="getLocation">' + "Name: " + name + '</br>' + "Address: " + address + '</br>' + "Phone Number: " + number + '</div>'
 
-        var infowindow = new google.maps.InfoWindow()
-
-        google.maps.event.addListener(marker, 'click', (function(marker, content, infoWin) {
+        google.maps.event.addListener(marker, 'click', (function(marker, content, infowindow) {
             	return function() {
-                infoWin.setContent(content);
+                infowindow.setContent(content);
                 map.panTo(this.getPosition());
-                infoWin.open(map, marker);
+                infowindow.open(map, this);
             };
         })(marker, content, infowindow));
+
+        google.maps.event.addListener(map, 'click', function(){
+            infowindow.close();
+        });
     }
 }
-
 //scale map to window size
 $(window).resize(scaleMap);
 
