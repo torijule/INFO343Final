@@ -38,19 +38,20 @@ var locations = [
 ];
 
 var position = {
-    lat: 41.374457,
+    lat: 40.774457,
     lng: -83.6316
 };
 
 var mapOptions = {
     center: position,
-    zoom: 9
+    zoom: 8
 };
 
 var mapElem = document.getElementById('map');
 
 var map = new google.maps.Map(mapElem, mapOptions);
 
+//This is the blue marker showing the current location of the user.
 function onGeoPos(position) {
     var infowindow = new google.maps.InfoWindow();
     console.log("Lat: " + position.coords.latitutde);
@@ -62,9 +63,11 @@ function onGeoPos(position) {
         lng: position.coords.longitude
     };*/
 
+    //I chose this location because we think it's more likely for tanpro users to be in Ohio.
+    //This would be a more typical representation of where they would be.
     var myLocPos = {
-        lat: 41.4,
-        lng: -83.7
+        lat: 40.774457,
+        lng: -83.6316
     }
 
     var myLocation = new google.maps.Marker({
