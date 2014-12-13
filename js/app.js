@@ -137,7 +137,7 @@ $(window).resize(scaleMap);
 
 function scaleMap() {
     scale.css({
-        'height': window.innerHeight - map.position().top - 20 + 'px'
+        'height': window.innerHeight
     });
 }
 
